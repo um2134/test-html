@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>welcome to our very first blog</title>
+  </head>
+  <body>
+    <h1 class="title">our blog</h1>
+
+    <p>we write about things we encounter while learning language like node js react js and mongodb.</p>
+
+    <h2>Blog Entries-create read update delete </h2>
+
+    <!-- Here will be a list of all the blog entries. -->
+    <div class="header">
+  <h2>noRemo project</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn"></div>
+      <h2>learning about node js </h2>
+      <h5>     Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm,[6] unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.    </h5>
+      <img src="node1.png" height="500"px width="300px">
+      <h2>theory about node js</h2>
+      <p>   Though .js is the standard filename extension for JavaScript code, the name "Node.js" doesn't refer to a particular file in this context and is merely the name of the product. Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).[7]
+
+The Node.js distributed development project was previously governed by the Node.js Foundation,[8] and has now merged with the JS Foundation to form the OpenJS Foundation, which is facilitated by the Linux Foundation's Collaborative Projects program.[9]  </p>
+      <h2>example of node</h2>
+      <p>   Example-
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World!');
+}).listen(8080);  </p>
+    </div>
+      <h2>learning about react js</h2>
+      <h5>  React is an open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.  </h5>
+      <img src="react.png" height="300"px width="250px">
+      <h3>lets know something brief about react js</h3>
+      <p>    ReactJS is a toolkit for building user interfaces that was first deployed by Facebook in 2011. At its core, React is a solution to a problem that developers faced when building user interfaces. It allows developers to build complex user interfaces which have components that will change frequently over time, without having to write a lot of very tricky JavaScript code.
+
+While React is a lot like front-end framework, it’s actually a little different in terms of functionality. Technically, it is a user interface library. It includes some of the same aspects of front-end frameworks, but its purpose is to organize HTML elements into components.
+
+People will generally say that React is the V in MV* framework architecture. This means, rather than doing all the things most frameworks do, React is focused on being able to generate HTML for the application it’s used in, and it does so in a very intuitive way.   </p>
+<h3>example code of react js </h3>
+<p> import React from 'react';
+
+class Album extends React.Component {
+   render() {
+     var title = "UI State of Mind";
+     var description = "Keep track of complex web application and manage state";
+     var lastPlayed = "3 minutes ago";
+     
+     return (
+       <div className="album">
+         <h3>{title}</h3>
+         <h4>{description}</h4>
+         <span className="lastPlayed">{lastPlayed}</span>
+       </div>
+     );
+   }
+} </p>
+    </div>
+      <h2>now lets know about mongodb</h2>
+      <h5>something about mongodb</h5>
+      <p>    10gen software company began developing MongoDB in 2007 as a component of a planned platform as a service product. In 2009, the company shifted to an open-source development model, with the company offering commercial support and other services. In 2013, 10gen changed its name to MongoDB Inc.[5]
+
+On October 20, 2017, MongoDB became a publicly traded company, listed on NASDAQ as MDB with an IPO price of $24 per share.[6]
+
+On October 30, 2019, MongoDB teamed up with Alibaba Cloud, who will offer its customers a MongoDB-as-a-service solution. Customers can use the managed offering from BABA's global data centers.[7]   </p>
+<img src="mongodb.jpg" height="300"px width="250px">
+    </div>
+  </div>
+  <div class="rightcolumn">
+      <h2>About Me</h2>
+      <div>
+        <p>we are ready to show our very first blog about node js react js and mongodb.</p>
+      </div>
+      <div class ="card">
+        <h2>contact us</h2>
+        <p>if you will get any queries or facing any problem or if you want something more about any topic releted to blog then you can contact on..... </p>
+        <form>
+          <lable for="NAME">name</lable><br><br>
+          <input type="text"id="NAME" name="NAME"><br><br>
+            <lable for="EMAIL">email</lable><br><br>
+            <input type="text" id="EMAIL" name="EMAIL"><br><br>
+              <lable for="CONTACT">contact</lable><br><br>
+              <input type="text" id="CONTACT" name="CONTACT"><br>
+              <lable for="message">please put your queries here</lable>
+              <textarea id="message" name="message" rows="4" cols="50">write your message here</textarea>
+              <button type="button">submit</button>
+           
+        </form>
+      </div>
+    </div>
+      <h3>see here node react and mongodb</h3>
+        <img src="react.png" height="400"px width="300px">
+          <img src="node js.png" height="500"px width="300px">
+            <img src="mongodb2.png" height="400"px width="300px">
+    <div class="card">
+      <h3>follow us</h3>
+      <p>on Instagram...<br>instagram id-
+      @Tanuja.divya
+      @nainanisha2342    
+      @_shreya_kumari25_
+      @Aartikumari</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>all copy right @reserved </h2>
+</div>
+
+  </body>
+</html>
